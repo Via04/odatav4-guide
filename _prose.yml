@@ -1,0 +1,19 @@
+prose:
+  siteurl: 'https://github.com/Via04/odatav4-guide/tree/master'
+  media:
+    uploads: "static"
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+site:
+	baseurl: "https://github.com/Via04/odatav4-guide/tree/master"
+metadata:
+  _posts:
+    - name: "image"
+    field:
+      element: "string"
+      label: "Image URL"
+      pattern: "^static"
+      placeholder: "static/image.png"
