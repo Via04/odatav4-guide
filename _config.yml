@@ -1,0 +1,10 @@
+prose:
+  siteurl: 'https://github.com/Via04/odatav4-guide/tree/master'
+  media: 'static'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  site:
+    baseurl: 'https://github.com/Via04/odatav4-guide/tree/master'
