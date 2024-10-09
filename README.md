@@ -302,7 +302,7 @@ Attachment в данном случае не нужен, так как выше 
   ENDCASE.
 ```
 Здесь ничего не обычного, просто вызываем нужный обработчик в зависимости от сущности.  
-В методе-обработчике в общем-то тоже ничего необычного. Все то, что мы рассмотрели выше в [параграфе про read_entity](#%2FIWBEP%2FIF_V4_DP_BASIC~READ_ENTITY), но только наоборот:
+В методе-обработчике в общем-то тоже ничего необычного. Все то, что мы рассмотрели выше в [параграфе про read_entity](#/IWBEP/IF_V4_DP_BASIC~READ_ENTITY), но только наоборот:
 ```abap
   METHOD recommendationse_create.
     DATA ls_done_list TYPE /iwbep/if_v4_requ_basic_create=>ty_s_todo_process_list.
